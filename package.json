@@ -1,0 +1,16 @@
+{
+  "name": "snmp_poller",
+  "version": "1.0.0",
+  "description": "proof of concept for polling snmp data from multiple nodes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateusz Wilk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "net-snmp": "^1.1.19"
+  }
+}
